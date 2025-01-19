@@ -20,17 +20,11 @@ from pathlib import Path
 from src.parser import PDFParser
 
 def main():
-    # Initialize parser
     parser = PDFParser(model_provider="local")
     
     # Set up paths - using raw string with r prefix
     pdf_path = Path(r"path to your document")
     
-    # OR using forward slashes
-    # pdf_path = Path("C:/Users/matth/OneDrive/Desktop/s42979-021-00592-x.pdf")
-    
-    # OR using double backslashes
-    # pdf_path = Path("C:\\Users\\matth\\OneDrive\\Desktop\\s42979-021-00592-x.pdf")
     
     output_dir = Path("extracted_content")
     output_dir.mkdir(exist_ok=True)
