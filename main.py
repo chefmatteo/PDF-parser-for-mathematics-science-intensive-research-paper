@@ -16,7 +16,6 @@ def main():
     sys.exit(app.exec())
 
 if __name__ == "__main__":
-=======
 from pathlib import Path
 from src.parser import PDFParser
 
@@ -25,7 +24,7 @@ def main():
     parser = PDFParser(model_provider="local")
     
     # Set up paths - using raw string with r prefix
-    pdf_path = Path(r"C:\Users\matth\OneDrive\Desktop\s42979-021-00592-x.pdf")
+    pdf_path = Path(r"path to your document")
     
     # OR using forward slashes
     # pdf_path = Path("C:/Users/matth/OneDrive/Desktop/s42979-021-00592-x.pdf")
@@ -51,5 +50,4 @@ def main():
     print(f"Output saved to: {output_dir}")
 
 if __name__ == "__main__":
->>>>>>> f665fe7831d9f6a00ff414ebfa44a17094d73c8d
     main() 
