@@ -1,4 +1,4 @@
-# chefmatteo-PDF-parser-for-mathematics-science-intensive-research-paper
+# PDF-parser-for-mathematics-science-intensive-research-paper
 
 A Python application with a modern GUI that extracts and processes content from scientific PDF documents. Specifically designed to handle mathematical equations, citations, figures, and formatted text with special attention to academic paper structures.
 
